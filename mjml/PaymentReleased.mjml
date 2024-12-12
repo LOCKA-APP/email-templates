@@ -29,15 +29,20 @@
         border-radius="0px 0px 8px 8px"
         padding="48px 0"
       >
-        <mj-text align="center" font-size="30px" font-weight="bold">
-          Your Payment for [${project_name}] Has Arrived 💸
+        <mj-text
+          align="center"
+          font-size="30px"
+          font-weight="bold"
+          padding="0 24px 48px 24px"
+        >
+          Your Payment for ${project_name} Has Arrived 💸
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
           Hi <b> ${user_name} </b>
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
           We’re pleased to inform you that the payment for
-          <b> [${product_name}] </b> has been successfully released.
+          <b> ${product_name} </b> has been successfully released.
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
           The payment has been processed successfully and added to your wallet.

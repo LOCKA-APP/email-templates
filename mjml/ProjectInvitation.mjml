@@ -29,21 +29,32 @@
         border-radius="0px 0px 8px 8px"
         padding="48px 0"
       >
-        <mj-text align="center" font-size="30px" font-weight="bold">
+        <mj-text
+          align="center"
+          font-size="30px"
+          font-weight="bold"
+          padding="0 24px 48px 24px"
+        >
           You’ve Been Invited to Join a New Project on Locka! 🎉
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
           Hi <b> ${user_name} </b>
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
-          <b>[${project_owner_name}]</b> has invited you to collaborate on a new
+          <b>${project_owner_name}</b> has invited you to collaborate on a new
           project:
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
-          <b>[${project_name}]</b>
+          <b>${project_name}</b>
         </mj-text>
 
-        <mj-button background-color="#3B42C4" font-size="16px">
+        <mj-button
+          href="google.com"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="12px 16px"
+        >
           View project invitation
         </mj-button>
         <mj-text font-size="16px" line-height="22.4px">

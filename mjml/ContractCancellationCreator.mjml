@@ -29,7 +29,12 @@
         border-radius="0px 0px 8px 8px"
         padding="48px 0"
       >
-        <mj-text align="center" font-size="30px" font-weight="bold">
+        <mj-text
+          align="center"
+          font-size="30px"
+          font-weight="bold"
+          padding="0 24px 48px 24px"
+        >
           Important Update: Contract Cancellation for [${project_name}]
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
@@ -60,7 +65,13 @@
             </li>
           </ul>
         </mj-text>
-        <mj-button background-color="#3B42C4" font-size="16px">
+        <mj-button
+          href="google.com"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="12px 16px"
+        >
           File a Dispute
         </mj-button>
 
@@ -69,7 +80,13 @@
           opportunities are on the horizon for you. If you have any questions or
           need guidance, our team is always here to support you.
         </mj-text>
-        <mj-button background-color="#3B42C4" font-size="16px">
+        <mj-button
+          href="google.com"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="12px 16px"
+        >
           Contact Support
         </mj-button>
         <mj-text font-size="16px" line-height="22.4px"> Warm regards, </mj-text>
