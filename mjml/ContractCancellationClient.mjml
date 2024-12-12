@@ -1,0 +1,136 @@
+<mjml>
+  <mj-head>
+    <mj-title>Contract Cancellation Client</mj-title>
+    <mj-font
+      name="Host-Grotesk"
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+    ></mj-font>
+  </mj-head>
+  <mj-body
+    background-color="#EFF0FF"
+    font-family="Host-Grotesk, Arial, sans-serif"
+  >
+    <mj-section>
+      <mj-column
+        border-radius="8px 8px 0px 0px"
+        width="100%"
+        background-color="#3B42C4"
+        padding="32px 0"
+      >
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/Locka-email-logo.png"
+          alt="Locka Logo"
+          width="100px"
+        />
+      </mj-column>
+      <mj-column
+        width="100%"
+        background-color="#FFFFFF"
+        border-radius="0px 0px 8px 8px"
+        padding="48px 0"
+      >
+        <mj-text align="center" font-size="30px" font-weight="bold">
+          Contract Cancellation for [${project_name}]
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px">
+          Hi <b> ${user_name} </b>
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px">
+          We wanted to inform you that the contract for
+          <b> [${project_name}] </b> has been cancelled by you.
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px">
+          Here’s what happens next:
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px" color="#333333">
+          <ul style="padding-left: 20px; margin: 0">
+            <li>
+              The creators on the project have <b> 5 working days </b> to file a
+              dispute if they feel the cancellation is unfair or the work
+              warrants payment.
+            </li>
+            <li>
+              If no dispute is filed, you will receive a refund of the project
+              funds in <b> 7 working days. </b>
+            </li>
+            <li>
+              If a dispute is filed, our team will review the details and
+              provide a resolution as quickly as possible.
+            </li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-size="16px" line-height="22.4px">
+          We are committed to ensuring fairness and transparency for all
+          parties. If you have any questions or need further assistance, feel
+          free to reach out.
+        </mj-text>
+        <mj-button background-color="#3B42C4" font-size="16px">
+          Contact Support
+        </mj-button>
+        <mj-text font-size="16px" line-height="22.4px">
+          Thank you for using Locka to manage your projects.
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px"> Warm regards, </mj-text>
+        <mj-text font-size="16px" line-height="22.4px">
+          The Locka Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+          alt="instaram-logo"
+          width="48px"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+          alt="facebook-logo"
+          width="48px"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+          alt="linkedin-logo"
+          width="48px"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+          alt="twitterX-logo"
+          width="48px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="16px">
+          <a href="https://fonts.google.com/" target="_blank">
+            <b style="color: #3b42c4"> www.locka.app </b></a
+          >
+        </mj-text>
+        <mj-text align="center" color="#999999" line-height="22.4px">
+          No, 22 Awka Crescent, War Collage Estate, 3rd Avenue Gwarinpa, Abuja
+          FCT, Nigeria
+        </mj-text>
+        <mj-divider
+          border-color="#ECECEC"
+          border-width="1px"
+          border-style="solid"
+          padding="0px 0"
+        />
+
+        <mj-text align="center" color="#999999"> Copyright© 2024 </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

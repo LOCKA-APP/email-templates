@@ -1,0 +1,112 @@
+<mjml>
+  <mj-head>
+    <mj-title>Project Invitation</mj-title>
+    <mj-font
+      name="Host-Grotesk"
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+    ></mj-font>
+  </mj-head>
+  <mj-body
+    background-color="#EFF0FF"
+    font-family="Host-Grotesk, Arial, sans-serif"
+  >
+    <mj-section>
+      <mj-column
+        border-radius="8px 8px 0px 0px"
+        width="100%"
+        background-color="#3B42C4"
+        padding="32px 0"
+      >
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/Locka-email-logo.png"
+          alt="Locka Logo"
+          width="100px"
+        />
+      </mj-column>
+      <mj-column
+        width="100%"
+        background-color="#FFFFFF"
+        border-radius="0px 0px 8px 8px"
+        padding="48px 0"
+      >
+        <mj-text align="center" font-size="30px" font-weight="bold">
+          You’ve Been Invited to Join a New Project on Locka! 🎉
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px">
+          Hi <b> ${user_name} </b>
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px">
+          <b>[${project_owner_name}]</b> has invited you to collaborate on a new
+          project:
+        </mj-text>
+        <mj-text font-size="16px" line-height="22.4px">
+          <b>[${project_name}]</b>
+        </mj-text>
+
+        <mj-button background-color="#3B42C4" font-size="16px">
+          View project invitation
+        </mj-button>
+        <mj-text font-size="16px" line-height="22.4px">
+          Don’t miss this opportunity to showcase your skills and connect with
+          other talented people. If you encounter any issues or need assistance,
+          our support team is just a click away.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+          alt="instaram-logo"
+          width="48px"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+          alt="facebook-logo"
+          width="48px"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+          alt="linkedin-logo"
+          width="48px"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          href="https://fonts.google.com"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+          alt="twitterX-logo"
+          width="48px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="16px">
+          <a href="https://fonts.google.com/" target="_blank">
+            <b style="color: #3b42c4"> www.locka.app </b></a
+          >
+        </mj-text>
+        <mj-text align="center" color="#999999" line-height="22.4px">
+          No, 22 Awka Crescent, War Collage Estate, 3rd Avenue Gwarinpa, Abuja
+          FCT, Nigeria
+        </mj-text>
+        <mj-divider
+          border-color="#ECECEC"
+          border-width="1px"
+          border-style="solid"
+          padding="0px 0"
+        />
+
+        <mj-text align="center" color="#999999"> Copyright© 2024 </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
