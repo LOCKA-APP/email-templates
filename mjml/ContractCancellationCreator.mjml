@@ -10,7 +10,7 @@
     background-color="#EFF0FF"
     font-family="Host-Grotesk, Arial, sans-serif"
   >
-    <mj-section>
+    <mj-section padding="48px 16px">
       <mj-column
         border-radius="8px 8px 0px 0px"
         width="100%"
