@@ -35,15 +35,15 @@
           font-weight="bold"
           padding="0 24px 48px 24px"
         >
-          Important Update: Contract Cancellation for [${project_name}]
+          Important Update: Contract Cancellation for ${project_name}
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
           Hi <b> ${user_name} </b>
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
           We wanted to inform you that the contract for
-          <b> [${project_name}] </b> has been cancelled by the project owner,
-          <b> [${client_name}]. </b>
+          <b> ${project_name} </b> has been cancelled by the project owner,
+          <b> ${client_name}. </b>
         </mj-text>
         <mj-text font-size="16px" line-height="22.4px">
           Here’s what this means:
@@ -132,9 +132,13 @@
     <mj-section>
       <mj-column>
         <mj-text align="center" font-size="16px">
-          <a href="https://fonts.google.com/" target="_blank">
-            <b style="color: #3b42c4"> www.locka.app </b></a
+          <a
+            href="https://fonts.google.com/"
+            target="_blank"
+            style="color: #3b42c4; font-weight: bold; text-decoration: none"
           >
+            www.locka.app
+          </a>
         </mj-text>
         <mj-text align="center" color="#999999" line-height="22.4px">
           No, 22 Awka Crescent, War Collage Estate, 3rd Avenue Gwarinpa, Abuja

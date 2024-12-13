@@ -56,9 +56,13 @@
         </mj-button>
         <mj-text font-size="16px" line-height="22.4px">
           If you didn’t request this change, please contact us immediately at
-          <a href="https://fonts.google.com/" target="_blank"
-            ><b style="color: #3b42c4"> support email</b></a
+          <a
+            href="https://fonts.google.com/"
+            target="_blank"
+            style="color: #3b42c4; font-weight: bold; text-decoration: none"
           >
+            support email
+          </a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -99,9 +103,13 @@
     <mj-section>
       <mj-column>
         <mj-text align="center" font-size="16px">
-          <a href="https://fonts.google.com/" target="_blank">
-            <b style="color: #3b42c4"> www.locka.app </b></a
+          <a
+            href="https://fonts.google.com/"
+            target="_blank"
+            style="color: #3b42c4; font-weight: bold; text-decoration: none"
           >
+            www.locka.app
+          </a>
         </mj-text>
         <mj-text align="center" color="#999999" line-height="22.4px">
           No, 22 Awka Crescent, War Collage Estate, 3rd Avenue Gwarinpa, Abuja
