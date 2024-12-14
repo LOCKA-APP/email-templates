@@ -1,8 +1,18 @@
-<!doctype html>
+export const projectApplicationEmail = (
+  user_name,
+  creator_name,
+  project_name,
+  proposal,
+  applications_url
+) => {
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
+
+  return `<!doctype html>
 <html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <title>Payment Released</title>
+  <title>Project Invitation</title>
   <!--[if !mso]><!-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--<![endif]-->
@@ -57,23 +67,11 @@
       .mj-outlook-group-fix { width:100% !important; }
     </style>
     <![endif]-->
-  <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    @import url(https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap);
-
-  </style>
-  <!--<![endif]-->
   <style type="text/css">
     @media only screen and (min-width:480px) {
       .mj-column-per-100 {
         width: 100% !important;
         max-width: 100%;
-      }
-
-      .mj-column-per-25 {
-        width: 25% !important;
-        max-width: 25%;
       }
     }
 
@@ -82,11 +80,6 @@
     .moz-text-html .mj-column-per-100 {
       width: 100% !important;
       max-width: 100%;
-    }
-
-    .moz-text-html .mj-column-per-25 {
-      width: 25% !important;
-      max-width: 25%;
     }
 
   </style>
@@ -149,8 +142,8 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:0 24px 48px 24px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Your Payment for ${project_name} Has Arrived 💸</div>
+                              <td align="center" style="font-size:0px;padding:0 24px 18px 24px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Your Project has a new application</div>
                               </td>
                             </tr>
                             <tr>
@@ -160,27 +153,35 @@
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We’re pleased to inform you that the payment for <b> ${project_name} </b> has been successfully released.</div>
+                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b>${creator_name}</b> has indicated interest in collaborating on your project:<b> ${project_name}</b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">The payment has been processed successfully and added to your wallet.</div>
+                                <div style="font-family:Host Grotesk;font-size:18px;line-height:30px;text-align:left;color:#000000;"><b>Proposal:</b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Thank you for choosing Locka to share your talent. We’re proud to support your creative journey.</div>
+                                <div style="font-family:Host Grotesk;font-size:16px;line-height:1;text-align:left;color:#000000;">${proposal}</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:30px 16px;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" bgcolor="#3B42C4" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:30px;mso-padding-alt:10px 70px;background:#3B42C4;" valign="middle">
+                                        <a href="${applications_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> View project Applications </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team </b></div>
+                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">If you encounter any issues or need assistance, our support team is just a click away.</div>
                               </td>
                             </tr>
                           </tbody>
@@ -204,89 +205,93 @@
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:150px;" ><![endif]-->
-              <div class="mj-column-per-25 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td><![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="width:48px;">
-                                <a href="https://www.instagram.com/locka.app" target="_blank">
-                                  <img alt="instaram-logo" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="48" height="auto" />
-                                </a>
+                              <td style="padding:0px 20px;vertical-align:middle;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                        <a href="https://www.instagram.com/locka.app" target="_blank">
+                                          <img alt="instaram-logo" height="40" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png" style="border-radius:3px;display:block;" width="40" />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </td>
                             </tr>
                           </tbody>
                         </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:150px;" ><![endif]-->
-              <div class="mj-column-per-25 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <!--[if mso | IE]></td><td><![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="width:48px;">
-                                <a href="https://www.facebook.com/getlocka" target="_blank">
-                                  <img alt="facebook-logo" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="48" height="auto" />
-                                </a>
+                              <td style="padding:0px 20px;vertical-align:middle;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                        <a href="https://www.x.com/lockaapp" target="_blank">
+                                          <img alt="twitterX-logo" height="40" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png" style="border-radius:3px;display:block;" width="40" />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </td>
                             </tr>
                           </tbody>
                         </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:150px;" ><![endif]-->
-              <div class="mj-column-per-25 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <!--[if mso | IE]></td><td><![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="width:48px;">
-                                <a href="https://www.linkedin.com/lockaapp" target="_blank">
-                                  <img alt="linkedin-logo" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="48" height="auto" />
-                                </a>
+                              <td style="padding:0px 20px;vertical-align:middle;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                        <a href="https://www.facebook.com/getlocka" target="_blank">
+                                          <img alt="" height="40" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png" style="border-radius:3px;display:block;" width="40" />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </td>
                             </tr>
                           </tbody>
                         </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:150px;" ><![endif]-->
-              <div class="mj-column-per-25 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <!--[if mso | IE]></td><td><![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="width:48px;">
-                                <a href="https://www.x.com/lockaapp" target="_blank">
-                                  <img alt="twitterX-logo" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="48" height="auto" />
-                                </a>
+                              <td style="padding:0px 20px;vertical-align:middle;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                        <a href="https://www.linkedin.com/company/lockaapp" target="_blank">
+                                          <img alt="linkedin-logo" height="40" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png" style="border-radius:3px;display:block;" width="40" />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </td>
                             </tr>
                           </tbody>
                         </table>
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
                       </td>
                     </tr>
                   </tbody>
@@ -345,3 +350,6 @@
 </body>
 
 </html>
+
+`;
+};

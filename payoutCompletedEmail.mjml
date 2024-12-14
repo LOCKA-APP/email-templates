@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Payment Released</mj-title>
+    <mj-title>Payout Completed</mj-title>
     <mj-font
       name="Host Grotesk"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
@@ -30,11 +30,11 @@
           align="center"
           font-size="30px"
           font-weight="bold"
-          padding="0 24px 48px 24px"
+          padding="0 24px 18px 24px"
           font-family="Host Grotesk"
           line-height="40px"
         >
-          Your Payment for ${project_name} Has Arrived 💸
+          Your Payout of ${amount} Has been processed 💸
         </mj-text>
         <mj-text
           font-size="16px"
@@ -48,16 +48,11 @@
           line-height="22.4px"
           font-family="Host Grotesk"
         >
-          We’re pleased to inform you that the payment for
-          <b> ${project_name} </b> has been successfully released.
+          We’re wish to inform you that your payout balance
+          <b> ${amount} </b> has been processed into the payout bank set on your
+          profile.
         </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          The payment has been processed successfully and added to your wallet.
-        </mj-text>
+
         <mj-text
           font-size="16px"
           line-height="22.4px"
@@ -84,37 +79,36 @@
     </mj-section>
     <!-- FOOTER==================================== -->
     <mj-section>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.instagram.com/locka.app"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
-          alt="instaram-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.facebook.com/getlocka"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
-          alt="facebook-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.linkedin.com/lockaapp"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
-          alt="linkedin-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.x.com/lockaapp"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
-          alt="twitterX-logo"
-          width="48px"
-        />
+      <mj-column>
+        <mj-social icon-size="40px" mode="horizontal" align="center">
+          <mj-social-element
+            href="https://www.instagram.com/locka.app"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+            alt="instaram-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.x.com/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+            alt="twitterX-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.facebook.com/getlocka"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.linkedin.com/company/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+            alt="linkedin-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+        </mj-social>
       </mj-column>
     </mj-section>
     <mj-section>

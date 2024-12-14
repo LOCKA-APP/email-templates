@@ -1,8 +1,8 @@
 <mjml>
   <mj-head>
-    <mj-title>Reset Email</mj-title>
+    <mj-title>Project Invitation</mj-title>
     <mj-font
-      name="Host Grotesk"
+      name="Host-Grotesk"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
     ></mj-font>
   </mj-head>
@@ -34,7 +34,7 @@
           font-family="Host Grotesk"
           line-height="40px"
         >
-          Confirm Your New Email Address
+          Your Project has a new application
         </mj-text>
         <mj-text
           font-size="16px"
@@ -48,12 +48,18 @@
           line-height="22.4px"
           font-family="Host Grotesk"
         >
-          We’ve received a request to update your email address. To confirm this
-          change, please click the button below:
+          <b>${creator_name}</b> has indicated interest in collaborating on your
+          project:<b> ${project_name}</b>
+        </mj-text>
+        <mj-text font-size="18px" font-family="Host Grotesk" line-height="30px">
+          <b>Proposal:</b>
+        </mj-text>
+        <mj-text font-size="16px" font-family="Host Grotesk">
+          ${proposal}
         </mj-text>
 
         <mj-button
-          href="${confirm_url}"
+          href="${applications_url}"
           background-color="#3B42C4"
           font-size="16px"
           border-radius="8px"
@@ -62,59 +68,50 @@
           height="30px"
           inner-padding="10px 70px"
         >
-          Confirm Email Address
+          View project Applications
         </mj-button>
-
         <mj-text
           font-size="16px"
           line-height="22.4px"
           font-family="Host Grotesk"
         >
-          If you didn’t request this change, please contact us immediately at
-          <a
-            href="${support_email}"
-            target="_blank"
-            style="color: #3b42c4; font-weight: bold; text-decoration: none"
-          >
-            ${support_email}
-          </a>
+          If you encounter any issues or need assistance, our support team is
+          just a click away.
         </mj-text>
       </mj-column>
     </mj-section>
-
     <!-- FOOTER==================================== -->
     <mj-section>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.instagram.com/locka.app"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
-          alt="instaram-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.facebook.com/getlocka"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
-          alt="facebook-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.linkedin.com/lockaapp"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
-          alt="linkedin-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.x.com/lockaapp"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
-          alt="twitterX-logo"
-          width="48px"
-        />
+      <mj-column>
+        <mj-social icon-size="40px" mode="horizontal" align="center">
+          <mj-social-element
+            href="https://www.instagram.com/locka.app"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+            alt="instaram-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.x.com/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+            alt="twitterX-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.facebook.com/getlocka"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.linkedin.com/company/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+            alt="linkedin-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+        </mj-social>
       </mj-column>
     </mj-section>
     <mj-section>

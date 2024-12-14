@@ -1,14 +1,12 @@
 <mjml>
   <mj-head>
-    <mj-title>Settlement Code</mj-title>
+    <mj-title>Contract Cancellation Creator</mj-title>
     <mj-font
       name="Host Grotesk"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
     ></mj-font>
   </mj-head>
-  <mj-body
-    background-color="#EFF0FF"
-  >
+  <mj-body background-color="#EFF0FF">
     <mj-section padding="48px 16px 0 16px">
       <mj-column
         border-radius="8px 8px 0px 0px"
@@ -32,36 +30,110 @@
           align="center"
           font-size="30px"
           font-weight="bold"
-          padding="0 24px 18px 24px"
-               font-family="Host Grotesk"
+          padding="0 24px 48px 24px"
+          font-family="Host Grotesk"
           line-height="40px"
         >
-          Settlement Otp
+          Important Update: Contract Cancellation for ${project_name}
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk">
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
           Hi <b> ${user_name} </b>
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk">
-Please use the verification code below to complete settlement.
-        </mj-text>
-    
-     <mj-text
-          align="center"
-          font-size="30px"
-          font-weight="bold"
-          padding="0 24px 18px 24px"
-               font-family="Host Grotesk"
-          line-height="40px"
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
         >
-          ${otp}
+          We wanted to inform you that your contract with
+          <b> ${project_name} </b> has been cancelled by the project owner,
+          <b> ${client_name}. </b>
         </mj-text>
-    
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
+          Here’s what this means:
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="30px"
+          color="#333333"
+          font-family="Host Grotesk"
+        >
+          <ul style="padding-left: 20px; margin: 0">
+            <li>You are no longer required to work on this project.</li>
+            <li>
+              If you think the cancellation is unfair or there’s an issue, you
+              can file a dispute within <b> 5 working days. </b>
+            </li>
+            <li>
+              Our team will carefully review the project details and determine
+              if payment is due for completed work.
+            </li>
+            <li>
+              If no dispute is filed, the contract will be fully cancelled, and
+              the project owner will receive a refund.
+            </li>
+          </ul>
+        </mj-text>
+        <mj-button
+          href="${dispute_url}"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="30px 16px"
+          font-family="Host Grotesk"
+          height="30px"
+          inner-padding="10px 70px"
+        >
+          File A Dispute
+        </mj-button>
 
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
+          While this project has come to an end, we’re confident new
+          opportunities are on the horizon for you. If you have any questions or
+          need guidance, our team is always here to support you.
+        </mj-text>
+
+        <mj-button
+          href="mailto:${support_email}"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="30px 16px"
+          font-family="Host Grotesk"
+          height="30px"
+          inner-padding="10px 70px"
+        >
+          Contact Support
+        </mj-button>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
+          Warm regards,
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+          ><b> The Locka Team</b>
+        </mj-text>
       </mj-column>
     </mj-section>
-    </mj-section>
+
     <!-- FOOTER==================================== -->
-     <mj-section>
+    <mj-section>
       <mj-column>
         <mj-social icon-size="40px" mode="horizontal" align="center">
           <mj-social-element

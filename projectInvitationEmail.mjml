@@ -1,8 +1,8 @@
 <mjml>
   <mj-head>
-    <mj-title>Payout Completed</mj-title>
+    <mj-title>Project Invitation</mj-title>
     <mj-font
-      name="Host Grotesk"
+      name="Host-Grotesk"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
     ></mj-font>
   </mj-head>
@@ -30,11 +30,11 @@
           align="center"
           font-size="30px"
           font-weight="bold"
-          padding="0 24px 18px 24px"
+          padding="0 24px 48px 24px"
           font-family="Host Grotesk"
           line-height="40px"
         >
-          Your Payout of ${amount} Has been processed 💸
+          You’ve Been Invited to Join a New Project on Locka! 🎉
         </mj-text>
         <mj-text
           font-size="16px"
@@ -48,68 +48,68 @@
           line-height="22.4px"
           font-family="Host Grotesk"
         >
-          We’re wish to inform you that your payout balance
-          <b> ${amount} </b> has been processed into the payout bank set on your
-          profile.
+          <b>${project_owner}</b> has invited you to collaborate on a new
+          project:
+        </mj-text>
+        <mj-text font-size="16px" font-family="Host Grotesk">
+          <b>${project_name}</b>
         </mj-text>
 
+        <mj-button
+          href="${invite_url}"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="30px 16px"
+          font-family="Host Grotesk"
+          height="30px"
+          inner-padding="10px 70px"
+        >
+          View project invitation
+        </mj-button>
         <mj-text
           font-size="16px"
           line-height="22.4px"
           font-family="Host Grotesk"
         >
-          Thank you for choosing Locka to share your talent. We’re proud to
-          support your creative journey.
-        </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          Warm regards,
-        </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          <b> The Locka Team </b>
+          Don’t miss this opportunity to showcase your skills and connect with
+          other talented people. If you encounter any issues or need assistance,
+          our support team is just a click away.
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- FOOTER==================================== -->
     <mj-section>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.instagram.com/locka.app"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
-          alt="instaram-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.facebook.com/getlocka"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
-          alt="facebook-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.linkedin.com/lockaapp"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
-          alt="linkedin-logo"
-          width="48px"
-        />
-      </mj-column>
-      <mj-column width="25%">
-        <mj-image
-          href="https://www.x.com/lockaapp"
-          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
-          alt="twitterX-logo"
-          width="48px"
-        />
+      <mj-column>
+        <mj-social icon-size="40px" mode="horizontal" align="center">
+          <mj-social-element
+            href="https://www.instagram.com/locka.app"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+            alt="instaram-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.x.com/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+            alt="twitterX-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.facebook.com/getlocka"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.linkedin.com/company/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+            alt="linkedin-logo"
+            padding="0px 20px"
+          >
+          </mj-social-element>
+        </mj-social>
       </mj-column>
     </mj-section>
     <mj-section>
