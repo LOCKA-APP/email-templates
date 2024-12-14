@@ -1,10 +1,5 @@
-export const projectApplicationEmail = (
-  user_name,
-  creator_name,
-  project_name,
-  proposal,
-  applications_url
-) => {
+
+export const projectApplicationEmail = (user_name, creator_name, project_name, proposal, applications_url, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 
@@ -215,7 +210,7 @@ export const projectApplicationEmail = (
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>
@@ -235,7 +230,7 @@ export const projectApplicationEmail = (
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>
@@ -255,7 +250,7 @@ export const projectApplicationEmail = (
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>
@@ -275,7 +270,7 @@ export const projectApplicationEmail = (
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>

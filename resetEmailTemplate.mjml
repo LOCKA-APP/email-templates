@@ -90,27 +90,27 @@
             href="https://www.instagram.com/locka.app"
             src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
             alt="instaram-logo"
-            padding="0px 20px"
+            padding="0px 10px"
           >
           </mj-social-element>
           <mj-social-element
             href="https://www.x.com/lockaapp"
             src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
             alt="twitterX-logo"
-            padding="0px 20px"
+            padding="0px 10px"
           >
           </mj-social-element>
           <mj-social-element
             href="https://www.facebook.com/getlocka"
             src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
-            padding="0px 20px"
+            padding="0px 10px"
           >
           </mj-social-element>
           <mj-social-element
             href="https://www.linkedin.com/company/lockaapp"
             src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
             alt="linkedin-logo"
-            padding="0px 20px"
+            padding="0px 10px"
           >
           </mj-social-element>
         </mj-social>

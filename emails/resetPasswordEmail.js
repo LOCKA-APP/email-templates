@@ -1,4 +1,5 @@
-export const resetPasswordEmail = (user_name, reset_url) => {
+
+export const resetPasswordEmail = (user_name, reset_url, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 
@@ -216,7 +217,7 @@ export const resetPasswordEmail = (user_name, reset_url) => {
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>
@@ -236,7 +237,7 @@ export const resetPasswordEmail = (user_name, reset_url) => {
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>
@@ -256,7 +257,7 @@ export const resetPasswordEmail = (user_name, reset_url) => {
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>
@@ -276,7 +277,7 @@ export const resetPasswordEmail = (user_name, reset_url) => {
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 20px;vertical-align:middle;">
+                              <td style="padding:0px 10px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
                                   <tbody>
                                     <tr>
