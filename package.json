@@ -4,8 +4,13 @@
   "description": "Locka email templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-mjml": "find . -name '*.mjml' -exec sh -c 'mkdir -p emails && npx mjml {} -o emails/$(basename {} .mjml).html' \\;"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.15.3",
+    "nodemon": "^3.1.7"
+  }
 }
