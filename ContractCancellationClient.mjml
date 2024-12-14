@@ -6,7 +6,7 @@
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
     />
   </mj-head>
-  <mj-body background-color="#EFF0FF" font-family="Host-Grotesk">
+  <mj-body background-color="#EFF0FF">
     <mj-section padding="48px 16px 0 16px">
       <mj-column
         border-radius="8px 8px 0px 0px"
@@ -31,20 +31,39 @@
           font-size="30px"
           font-weight="bold"
           padding="0 24px 48px 24px"
+          font-family="Host Grotesk"
+          line-height="40px"
         >
           Contract Cancellation for ${project_name}
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px">
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
           Hi <b> ${user_name} </b>
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px">
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
           We wanted to inform you that the contract for
           <b> ${project_name} </b> has been cancelled by you.
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px">
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
           Here’s what happens next:
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px" color="#333333">
+        <mj-text
+          font-size="16px"
+          line-height="30px"
+          color="#333333"
+          font-family="Host Grotesk"
+        >
           <ul style="padding-left: 20px; margin: 0">
             <li>
               The creators on the project have <b> 5 working days </b> to file a
@@ -52,8 +71,9 @@
               warrants payment.
             </li>
             <li>
-              If no dispute is filed, you will receive a refund of the project
-              funds in <b> 7 working days. </b>
+              If no dispute is filed, you can apply for a refund of the project
+              funds in <b> 7 working days</b> or assign a new creator to the
+              project.
             </li>
             <li>
               If a dispute is filed, our team will review the details and
@@ -62,57 +82,79 @@
           </ul>
         </mj-text>
 
-        <mj-text font-size="16px" line-height="22.4px">
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
           We are committed to ensuring fairness and transparency for all
           parties. If you have any questions or need further assistance, feel
           free to reach out.
         </mj-text>
+
         <mj-button
-          href="google.com"
+          href="mailto:${contact_email}"
           background-color="#3B42C4"
           font-size="16px"
           border-radius="8px"
-          padding="12px 16px"
+          padding="30px 16px"
+          font-family="Host Grotesk"
+          height="30px"
+          inner-padding="10px 70px"
         >
           Contact Support
         </mj-button>
-        <mj-text font-size="16px" line-height="22.4px">
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
           Thank you for using Locka to manage your projects.
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px"> Warm regards, </mj-text>
-        <mj-text font-size="16px" line-height="22.4px">
-          The Locka Team
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
+          Warm regards,
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+          ><b> The Locka Team</b>
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- FOOTER==================================== -->
     <mj-section>
-      <mj-column>
+      <mj-column width="25%">
         <mj-image
-          href="https://fonts.google.com"
+          href="https://www.instagram.com/locka.app"
           src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
           alt="instaram-logo"
           width="48px"
         />
       </mj-column>
-      <mj-column>
+      <mj-column width="25%">
         <mj-image
-          href="https://fonts.google.com"
+          href="https://www.facebook.com/getlocka"
           src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
           alt="facebook-logo"
           width="48px"
         />
       </mj-column>
-      <mj-column>
+      <mj-column width="25%">
         <mj-image
-          href="https://fonts.google.com"
+          href="https://www.linkedin.com/lockaapp"
           src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
           alt="linkedin-logo"
           width="48px"
         />
       </mj-column>
-      <mj-column>
+      <mj-column width="25%">
         <mj-image
-          href="https://fonts.google.com"
+          href="https://www.x.com/lockaapp"
           src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
           alt="twitterX-logo"
           width="48px"
@@ -121,18 +163,22 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text align="center" font-size="16px">
+        <mj-text align="center" font-size="16px" font-family="Host Grotesk">
           <a
-            href="https://fonts.google.com/"
+            href="https://locka.app/"
             target="_blank"
             style="color: #3b42c4; font-weight: bold; text-decoration: none"
           >
             www.locka.app
           </a>
         </mj-text>
-        <mj-text align="center" color="#999999" line-height="22.4px">
-          No, 22 Awka Crescent, War Collage Estate, 3rd Avenue Gwarinpa, Abuja
-          FCT, Nigeria
+        <mj-text
+          align="center"
+          color="#999999"
+          line-height="22.4px"
+          font-family="Host Grotesk"
+        >
+          Abuja FCT, Nigeria
         </mj-text>
         <mj-divider
           border-color="#ECECEC"
@@ -141,7 +187,9 @@
           padding="0px 0"
         />
 
-        <mj-text align="center" color="#999999"> Copyright© 2024 </mj-text>
+        <mj-text align="center" color="#999999" font-family="Host Grotesk">
+          Copyright © ${year}
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
