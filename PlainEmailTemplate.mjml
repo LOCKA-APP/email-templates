@@ -1,12 +1,14 @@
 <mjml>
   <mj-head>
-    <mj-title>Contract Cancellation Client</mj-title>
+    <mj-title>${title}</mj-title>
     <mj-font
-      name="Host-Grotesk"
+      name="Host Grotesk"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
-    />
+    ></mj-font>
   </mj-head>
-  <mj-body background-color="#EFF0FF">
+  <mj-body
+    background-color="#EFF0FF"
+  >
     <mj-section padding="48px 16px 0 16px">
       <mj-column
         border-radius="8px 8px 0px 0px"
@@ -30,101 +32,23 @@
           align="center"
           font-size="30px"
           font-weight="bold"
-          padding="0 24px 48px 24px"
-          font-family="Host Grotesk"
+          padding="0 24px 18px 24px"
+               font-family="Host Grotesk"
           line-height="40px"
         >
-          Contract Cancellation for ${project_name}
+          ${title}
         </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
+        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk">
           Hi <b> ${user_name} </b>
         </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          We wanted to inform you that the contract for
-          <b> ${project_name} </b> has been cancelled by you.
+        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk">
+${message}
         </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          Here’s what happens next:
-        </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="30px"
-          color="#333333"
-          font-family="Host Grotesk"
-        >
-          <ul style="padding-left: 20px; margin: 0">
-            <li>
-              The creators on the project have <b> 5 working days </b> to file a
-              dispute if they feel the cancellation is unfair or the work
-              warrants payment.
-            </li>
-            <li>
-              If no dispute is filed, you can apply for a refund of the project
-              funds in <b> 7 working days</b> or assign a new creator to the
-              project.
-            </li>
-            <li>
-              If a dispute is filed, our team will review the details and
-              provide a resolution as quickly as possible.
-            </li>
-          </ul>
-        </mj-text>
+  
+    
 
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          We are committed to ensuring fairness and transparency for all
-          parties. If you have any questions or need further assistance, feel
-          free to reach out.
-        </mj-text>
-
-        <mj-button
-          href="mailto:${support_email}"
-          background-color="#3B42C4"
-          font-size="16px"
-          border-radius="8px"
-          padding="30px 16px"
-          font-family="Host Grotesk"
-          height="30px"
-          inner-padding="10px 70px"
-        >
-          Contact Support
-        </mj-button>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          Thank you for using Locka to manage your projects.
-        </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-        >
-          Warm regards,
-        </mj-text>
-        <mj-text
-          font-size="16px"
-          line-height="22.4px"
-          font-family="Host Grotesk"
-          ><b> The Locka Team</b>
-        </mj-text>
       </mj-column>
+    </mj-section>
     </mj-section>
     <!-- FOOTER==================================== -->
     <mj-section>

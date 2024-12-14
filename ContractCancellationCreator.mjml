@@ -105,7 +105,7 @@
         </mj-text>
 
         <mj-button
-          href="mailto:${contact_email}"
+          href="mailto:${support_email}"
           background-color="#3B42C4"
           font-size="16px"
           border-radius="8px"
