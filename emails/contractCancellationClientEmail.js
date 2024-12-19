@@ -138,27 +138,27 @@ export const contractCancellationClientEmail = (project_name, user_name, support
                           <tbody>
                             <tr>
                               <td align="center" style="font-size:0px;padding:0 24px 48px 24px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Contract Cancellation for ${project_name}</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Contract Cancellation for ${project_name}</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We wanted to inform you that the contract for <b> ${project_name} </b> has been cancelled by you.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We wanted to inform you that the contract for <b> ${project_name} </b> has been cancelled by you.</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Here’s what happens next:</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Here’s what happens next:</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:30px;text-align:left;color:#333333;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:30px;text-align:left;color:#333333;">
                                   <ul style="padding-left: 20px; margin: 0">
                                     <li> The creators on the project have <b> 5 working days </b> to file a dispute if they feel the cancellation is unfair or the work warrants payment. </li>
                                     <li> If no dispute is filed, you can apply for a refund of the project funds in <b> 7 working days</b> or assign a new creator to the project. </li>
@@ -169,7 +169,7 @@ export const contractCancellationClientEmail = (project_name, user_name, support
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We are committed to ensuring fairness and transparency for all parties. If you have any questions or need further assistance, feel free to reach out.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We are committed to ensuring fairness and transparency for all parties. If you have any questions or need further assistance, feel free to reach out.</div>
                               </td>
                             </tr>
                             <tr>
@@ -178,7 +178,7 @@ export const contractCancellationClientEmail = (project_name, user_name, support
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#3B42C4" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:30px;mso-padding-alt:10px 70px;background:#3B42C4;" valign="middle">
-                                        <a href="mailto:${support_email}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> Contact Support </a>
+                                        <a href="mailto:${support_email}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> Contact Support </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -187,17 +187,17 @@ export const contractCancellationClientEmail = (project_name, user_name, support
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Thank you for using Locka to manage your projects.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Thank you for using Locka to manage your projects.</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team</b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team</b></div>
                               </td>
                             </tr>
                           </tbody>
@@ -331,12 +331,12 @@ export const contractCancellationClientEmail = (project_name, user_name, support
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
                       </td>
                     </tr>
                     <tr>
@@ -349,7 +349,7 @@ export const contractCancellationClientEmail = (project_name, user_name, support
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
                       </td>
                     </tr>
                   </tbody>

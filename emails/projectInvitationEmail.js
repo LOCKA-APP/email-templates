@@ -138,22 +138,22 @@ export const projectInvitationEmail = (user_name, project_owner, project_name, i
                           <tbody>
                             <tr>
                               <td align="center" style="font-size:0px;padding:0 24px 48px 24px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">You’ve Been Invited to Join a New Project on Locka! 🎉</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">You’ve Been Invited to Join a New Project on Locka! 🎉</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b>${project_owner}</b> has invited you to collaborate on a new project:</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b>${project_owner}</b> has invited you to collaborate on a new project:</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:1;text-align:left;color:#000000;"><b>${project_name}</b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;"><b>${project_name}</b></div>
                               </td>
                             </tr>
                             <tr>
@@ -162,7 +162,7 @@ export const projectInvitationEmail = (user_name, project_owner, project_name, i
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#3B42C4" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:30px;mso-padding-alt:10px 70px;background:#3B42C4;" valign="middle">
-                                        <a href="${invite_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> View project invitation </a>
+                                        <a href="${invite_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> View project invitation </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -171,7 +171,7 @@ export const projectInvitationEmail = (user_name, project_owner, project_name, i
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Don’t miss this opportunity to showcase your skills and connect with other talented people. If you encounter any issues or need assistance, our support team is just a click away.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Don’t miss this opportunity to showcase your skills and connect with other talented people. If you encounter any issues or need assistance, our support team is just a click away.</div>
                               </td>
                             </tr>
                           </tbody>
@@ -305,12 +305,12 @@ export const projectInvitationEmail = (user_name, project_owner, project_name, i
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
                       </td>
                     </tr>
                     <tr>
@@ -323,7 +323,7 @@ export const projectInvitationEmail = (user_name, project_owner, project_name, i
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
                       </td>
                     </tr>
                   </tbody>

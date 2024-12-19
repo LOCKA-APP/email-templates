@@ -145,27 +145,27 @@ export const contractCancellationCreatorEmail = (project_name, user_name, client
                           <tbody>
                             <tr>
                               <td align="center" style="font-size:0px;padding:0 24px 48px 24px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Important Update: Contract Cancellation for ${project_name}</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Important Update: Contract Cancellation for ${project_name}</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We wanted to inform you that your contract with <b> ${project_name} </b> has been cancelled by the project owner, <b> ${client_name}. </b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We wanted to inform you that your contract with <b> ${project_name} </b> has been cancelled by the project owner, <b> ${client_name}. </b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Here’s what this means:</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Here’s what this means:</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:30px;text-align:left;color:#333333;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:30px;text-align:left;color:#333333;">
                                   <ul style="padding-left: 20px; margin: 0">
                                     <li>You are no longer required to work on this project.</li>
                                     <li> If you think the cancellation is unfair or there’s an issue, you can file a dispute within <b> 5 working days. </b>
@@ -182,7 +182,7 @@ export const contractCancellationCreatorEmail = (project_name, user_name, client
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#3B42C4" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:30px;mso-padding-alt:10px 70px;background:#3B42C4;" valign="middle">
-                                        <a href="${dispute_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> File A Dispute </a>
+                                        <a href="${dispute_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> File A Dispute </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -191,7 +191,7 @@ export const contractCancellationCreatorEmail = (project_name, user_name, client
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">While this project has come to an end, we’re confident new opportunities are on the horizon for you. If you have any questions or need guidance, our team is always here to support you.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">While this project has come to an end, we’re confident new opportunities are on the horizon for you. If you have any questions or need guidance, our team is always here to support you.</div>
                               </td>
                             </tr>
                             <tr>
@@ -200,7 +200,7 @@ export const contractCancellationCreatorEmail = (project_name, user_name, client
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#3B42C4" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:30px;mso-padding-alt:10px 70px;background:#3B42C4;" valign="middle">
-                                        <a href="mailto:${support_email}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> Contact Support </a>
+                                        <a href="mailto:${support_email}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> Contact Support </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -209,12 +209,12 @@ export const contractCancellationCreatorEmail = (project_name, user_name, client
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team</b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team</b></div>
                               </td>
                             </tr>
                           </tbody>
@@ -348,12 +348,12 @@ export const contractCancellationCreatorEmail = (project_name, user_name, client
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
                       </td>
                     </tr>
                     <tr>
@@ -366,7 +366,7 @@ export const contractCancellationCreatorEmail = (project_name, user_name, client
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
                       </td>
                     </tr>
                   </tbody>

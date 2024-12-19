@@ -31,7 +31,7 @@
           font-size="30px"
           font-weight="bold"
           padding="0 24px 18px 24px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
           line-height="40px"
         >
           Your Project has a new application
@@ -39,22 +39,26 @@
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           Hi <b> ${user_name} </b>
         </mj-text>
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           <b>${creator_name}</b> has indicated interest in collaborating on your
           project:<b> ${project_name}</b>
         </mj-text>
-        <mj-text font-size="18px" font-family="Host Grotesk" line-height="30px">
+        <mj-text
+          font-size="18px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          line-height="30px"
+        >
           <b>Proposal:</b>
         </mj-text>
-        <mj-text font-size="16px" font-family="Host Grotesk">
+        <mj-text font-size="16px" font-family="Host Grotesk, Arial, sans-serif">
           ${proposal}
         </mj-text>
 
@@ -64,7 +68,7 @@
           font-size="16px"
           border-radius="8px"
           padding="30px 16px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
           height="30px"
           inner-padding="10px 70px"
         >
@@ -73,7 +77,7 @@
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           If you encounter any issues or need assistance, our support team is
           just a click away.
@@ -116,7 +120,11 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text align="center" font-size="16px" font-family="Host Grotesk">
+        <mj-text
+          align="center"
+          font-size="16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
           <a
             href="https://locka.app/"
             target="_blank"
@@ -129,7 +137,7 @@
           align="center"
           color="#999999"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           Abuja FCT, Nigeria
         </mj-text>
@@ -140,7 +148,11 @@
           padding="0px 0"
         />
 
-        <mj-text align="center" color="#999999" font-family="Host Grotesk">
+        <mj-text
+          align="center"
+          color="#999999"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
           Copyright © ${year}
         </mj-text>
       </mj-column>

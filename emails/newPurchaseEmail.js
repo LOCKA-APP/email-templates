@@ -138,37 +138,37 @@ export const newPurchaseEmail = (user_name, product_name, year) => {
                           <tbody>
                             <tr>
                               <td align="center" style="font-size:0px;padding:0 24px 28px 24px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Someone Just Purchased Your Product! 🎉</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Someone Just Purchased Your Product! 🎉</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We are excited to let you know that your product,<b> ${product_name} </b> has just been purchased!</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We are excited to let you know that your product,<b> ${product_name} </b> has just been purchased!</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">The payment has been processed successfully and added to your wallet. Thank you for choosing Locka to share your talent.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">The payment has been processed successfully and added to your wallet. Thank you for choosing Locka to share your talent.</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Your security is our top priority.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Your security is our top priority.</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team</b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team</b></div>
                               </td>
                             </tr>
                           </tbody>
@@ -302,12 +302,12 @@ export const newPurchaseEmail = (user_name, product_name, year) => {
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
                       </td>
                     </tr>
                     <tr>
@@ -320,7 +320,7 @@ export const newPurchaseEmail = (user_name, product_name, year) => {
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
                       </td>
                     </tr>
                   </tbody>

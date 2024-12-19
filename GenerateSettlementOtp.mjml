@@ -2,7 +2,7 @@
   <mj-head>
     <mj-title>Settlement Code</mj-title>
     <mj-font
-      name="Host Grotesk"
+      name="Host Grotesk, Arial, sans-serif"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
     ></mj-font>
   </mj-head>
@@ -33,15 +33,15 @@
           font-size="30px"
           font-weight="bold"
           padding="0 24px 18px 24px"
-               font-family="Host Grotesk"
+               font-family="Host Grotesk, Arial, sans-serif"
           line-height="40px"
         >
           Settlement Otp
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk">
+        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk, Arial, sans-serif">
           Hi <b> ${user_name} </b>
         </mj-text>
-        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk">
+        <mj-text font-size="16px" line-height="22.4px"  font-family="Host Grotesk, Arial, sans-serif">
 Please use the verification code below to complete settlement.
         </mj-text>
     
@@ -50,7 +50,7 @@ Please use the verification code below to complete settlement.
           font-size="30px"
           font-weight="bold"
           padding="0 24px 18px 24px"
-               font-family="Host Grotesk"
+               font-family="Host Grotesk, Arial, sans-serif"
           line-height="40px"
         >
           ${otp}
@@ -96,7 +96,7 @@ Please use the verification code below to complete settlement.
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text align="center" font-size="16px" font-family="Host Grotesk">
+        <mj-text align="center" font-size="16px" font-family="Host Grotesk, Arial, sans-serif">
           <a
             href="https://locka.app/"
             target="_blank"
@@ -109,7 +109,7 @@ Please use the verification code below to complete settlement.
           align="center"
           color="#999999"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           Abuja FCT, Nigeria
         </mj-text>
@@ -120,7 +120,7 @@ Please use the verification code below to complete settlement.
           padding="0px 0"
         />
 
-        <mj-text align="center" color="#999999" font-family="Host Grotesk">
+        <mj-text align="center" color="#999999" font-family="Host Grotesk, Arial, sans-serif">
           Copyright © ${year}
         </mj-text>
       </mj-column>

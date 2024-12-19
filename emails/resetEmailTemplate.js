@@ -145,17 +145,17 @@ export const resetEmailTemplate = (user_name, confirm_url, support_email, year) 
                           <tbody>
                             <tr>
                               <td align="center" style="font-size:0px;padding:0 24px 18px 24px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Confirm Your New Email Address</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Confirm Your New Email Address</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Hi <b> ${user_name} </b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We’ve received a request to update your email address. To confirm this change, please click the button below:</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">We’ve received a request to update your email address. To confirm this change, please click the button below:</div>
                               </td>
                             </tr>
                             <tr>
@@ -164,7 +164,7 @@ export const resetEmailTemplate = (user_name, confirm_url, support_email, year) 
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#3B42C4" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:30px;mso-padding-alt:10px 70px;background:#3B42C4;" valign="middle">
-                                        <a href="${confirm_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> Confirm Email Address </a>
+                                        <a href="${confirm_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> Confirm Email Address </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -173,7 +173,7 @@ export const resetEmailTemplate = (user_name, confirm_url, support_email, year) 
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">If you didn’t request this change, please contact us immediately at <a href="${support_email}" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> ${support_email} </a></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">If you didn’t request this change, please contact us immediately at <a href="${support_email}" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> ${support_email} </a></div>
                               </td>
                             </tr>
                           </tbody>
@@ -307,12 +307,12 @@ export const resetEmailTemplate = (user_name, confirm_url, support_email, year) 
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:center;color:#000000;"><a href="https://locka.app/" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> www.locka.app </a></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:22.4px;text-align:center;color:#999999;">Abuja FCT, Nigeria</div>
                       </td>
                     </tr>
                     <tr>
@@ -325,7 +325,7 @@ export const resetEmailTemplate = (user_name, confirm_url, support_email, year) 
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Host Grotesk;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
+                        <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#999999;">Copyright © ${year}</div>
                       </td>
                     </tr>
                   </tbody>
