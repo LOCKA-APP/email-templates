@@ -31,7 +31,7 @@
           font-size="30px"
           font-weight="bold"
           padding="0 24px 48px 24px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
           line-height="40px"
         >
           Your Payment for ${project_name} Has Arrived 💸
@@ -39,14 +39,14 @@
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           Hi <b> ${user_name} </b>
         </mj-text>
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           We’re pleased to inform you that the payment for
           <b> ${project_name} </b> has been successfully released.
@@ -54,14 +54,14 @@
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           The payment has been processed successfully and added to your wallet.
         </mj-text>
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           Thank you for choosing Locka to share your talent. We’re proud to
           support your creative journey.
@@ -69,14 +69,14 @@
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           Warm regards,
         </mj-text>
         <mj-text
           font-size="16px"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           <b> The Locka Team </b>
         </mj-text>
@@ -118,7 +118,11 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text align="center" font-size="16px" font-family="Host Grotesk">
+        <mj-text
+          align="center"
+          font-size="16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
           <a
             href="https://locka.app/"
             target="_blank"
@@ -131,7 +135,7 @@
           align="center"
           color="#999999"
           line-height="22.4px"
-          font-family="Host Grotesk"
+          font-family="Host Grotesk, Arial, sans-serif"
         >
           Abuja FCT, Nigeria
         </mj-text>
@@ -142,7 +146,11 @@
           padding="0px 0"
         />
 
-        <mj-text align="center" color="#999999" font-family="Host Grotesk">
+        <mj-text
+          align="center"
+          color="#999999"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
           Copyright © ${year}
         </mj-text>
       </mj-column>
