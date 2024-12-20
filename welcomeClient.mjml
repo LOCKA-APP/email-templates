@@ -36,7 +36,7 @@
           font-weight="bold"
           padding="0 24px 18px 24px"
           font-family="Host Grotesk, Arial, sans-serif"
-          line-height="40px"
+          line-height="39.9px"
         >
           Welcome to Locka, ${user_name}
         </mj-text>
