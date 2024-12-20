@@ -2,7 +2,7 @@
   <mj-head>
     <mj-title>Payment Released</mj-title>
     <mj-font
-      name="Host Grotesk"
+      name="Host Grotesk, Arial, sans-serif"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
     ></mj-font>
   </mj-head>
