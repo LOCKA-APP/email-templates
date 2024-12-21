@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Welcome (Creator)</mj-title>
+    <mj-title>Welcome Creator</mj-title>
     <mj-font
       name="Host Grotesk"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
@@ -20,9 +20,13 @@
         border-radius="8px 8px 0px 0px"
         width="100%"
         background-color="#3B42C4"
-        padding="89.17px 0"
+        padding="40px 0"
       >
-        <mj-image src="./images/logo.png" alt="Locka Logo" width="281.14px" />
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/Locka-email-logo.png"
+          alt="Locka Logo"
+          width="181.14px"
+        />
       </mj-column>
 
       <!-- WELCOME TEXT -->
@@ -73,7 +77,7 @@
 
     <!-- Section 1: FIND YOUR NEXT CLIENT -->
     <mj-section padding="20px 16px" background-color="#F7F8FF">
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-text
           font-size="24px"
           font-weight="bold"
@@ -90,9 +94,9 @@
           business like a professional.
         </mj-text>
       </mj-column>
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-image
-          src="./images/feature-1.png"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/find-work.png"
           alt="Find your next client"
           padding="10px"
           border-radius="8px"
@@ -102,15 +106,15 @@
 
     <!-- Section 2: Protect your payment -->
     <mj-section padding="20px 16px" background-color="#F7F8FF">
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-image
-          src="./images/feature-2.png"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/wallet.png"
           alt="Protect your payment"
           padding="12px"
           border-radius="8px"
         />
       </mj-column>
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-text
           font-size="24px"
           font-weight="bold"
@@ -131,7 +135,7 @@
 
     <!-- Section 3: Manage your task -->
     <mj-section padding="20px 16px" background-color="#F7F8FF">
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-text
           font-size="24px"
           font-weight="bold"
@@ -148,9 +152,9 @@
           streamline your tasks and boost productivity.
         </mj-text>
       </mj-column>
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-image
-          src="./images/feature-3.png"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/project.png"
           alt="Manage your task"
           padding="10px"
           border-radius="8px"

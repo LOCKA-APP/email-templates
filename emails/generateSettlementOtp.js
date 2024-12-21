@@ -1,5 +1,5 @@
 
-export const generateSettlementOtp = (user_name, otp, year) => {
+export const GenerateSettlementOtp = (user_name, otp, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 

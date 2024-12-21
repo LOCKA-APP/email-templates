@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Welcome (Client)</mj-title>
+    <mj-title>Welcome Client</mj-title>
     <mj-font
       name="Host Grotesk"
       href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
@@ -23,9 +23,13 @@
         border-radius="8px 8px 0px 0px"
         width="100%"
         background-color="#3B42C4"
-        padding="89.17px 0"
+        padding="40px 0"
       >
-        <mj-image src="./images/logo.png" alt="Locka Logo" width="281.14px" />
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/Locka-email-logo.png"
+          alt="Locka Logo"
+          width="181.14px"
+        />
       </mj-column>
 
       <!-- WELCOME TEXT -->
@@ -75,7 +79,7 @@
 
     <!-- Section 1: Find the right talent -->
     <mj-section padding="20px 16px" background-color="#F7F8FF">
-      <mj-column width="50%" css-class="vertical-align-middle">
+      <mj-column vertical-align="middle">
         <mj-text
           font-size="24px"
           font-weight="bold"
@@ -92,11 +96,11 @@
           needs.
         </mj-text>
       </mj-column>
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-image
-          src="./images/client-feature-1.png"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/find-talent.png"
           alt="Find the right talent"
-          padding="10px"
+          padding="0px"
           border-radius="8px"
         />
       </mj-column>
@@ -104,15 +108,15 @@
 
     <!-- Section 2: Escrow payment -->
     <mj-section padding="20px 16px" background-color="#F7F8FF">
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-image
-          src="./images/feature-2.png"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/wallet.png"
           alt="Escrow payment"
-          padding="12px"
+          padding="0px"
           border-radius="8px"
         />
       </mj-column>
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-text
           font-size="24px"
           font-weight="bold"
@@ -133,7 +137,7 @@
 
     <!-- Section 3: Seamless collaboration -->
     <mj-section padding="20px 16px" background-color="#F7F8FF">
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-text
           font-size="24px"
           font-weight="bold"
@@ -150,11 +154,11 @@
           smooth and efficient.
         </mj-text>
       </mj-column>
-      <mj-column width="50%">
+      <mj-column vertical-align="middle">
         <mj-image
-          src="./images/feature-3.png"
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/project.png"
           alt="Seamless collaboration"
-          padding="10px"
+          padding="0px"
           border-radius="8px"
         />
       </mj-column>
