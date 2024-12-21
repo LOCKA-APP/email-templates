@@ -1,0 +1,273 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome Creator</mj-title>
+    <mj-font
+      name="Host Grotesk"
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+    ></mj-font>
+    <mj-style> .body { padding: 0px 16px } </mj-style>
+  </mj-head>
+  <mj-body background-color="#EFF0FF" css-class="body">
+    <mj-section />
+
+    <mj-section
+      background-color="#FFFFFF"
+      border-radius="8px 8px 0px 0px"
+      padding="0"
+    >
+      <!-- HEADER IMAGE -->
+      <mj-column
+        border-radius="8px 8px 0px 0px"
+        width="100%"
+        background-color="#3B42C4"
+        padding="40px 0"
+      >
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/Locka-email-logo.png"
+          alt="Locka Logo"
+          width="181.14px"
+        />
+      </mj-column>
+
+      <!-- WELCOME TEXT -->
+      <mj-column width="100%" background-color="#FFFFFF" padding="48px 0">
+        <mj-text
+          align="center"
+          font-size="30px"
+          font-weight="bold"
+          padding="0 24px 18px 24px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          line-height="40px"
+        >
+          Welcome to Locka, ${user_name}
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Hi <b> ${user_name} </b>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Welcome to Locka! 🎉 <br />
+          We are excited to welcome you to our community of smart creatives.
+          Locka is here to help you grow and manage your creative business like
+          a professional.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ADD THE FEATURES HEADER -->
+    <mj-section background-color="#F7F8FF" padding="0px 16px">
+      <mj-column border-radius="12px 12px 0px 0px" padding="32px 0">
+        <mj-text
+          font-size="24px"
+          font-weight="bold"
+          align="center"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Exciting features on Locka
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 1: FIND YOUR NEXT CLIENT -->
+    <mj-section padding="20px 16px" background-color="#F7F8FF">
+      <mj-column vertical-align="middle">
+        <mj-text
+          font-size="24px"
+          font-weight="bold"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Find your next client
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Connect with opportunities that match your skills and grow your
+          business like a professional.
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/find-work.png"
+          alt="Find your next client"
+          padding="10px"
+          border-radius="8px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 2: Protect your payment -->
+    <mj-section padding="20px 16px" background-color="#F7F8FF">
+      <mj-column vertical-align="middle">
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/wallet.png"
+          alt="Protect your payment"
+          padding="12px"
+          border-radius="8px"
+        />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text
+          font-size="24px"
+          font-weight="bold"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Protect your payment
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Enjoy peace of mind with secure escrow systems that ensure your
+          payment is held securely.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 3: Manage your task -->
+    <mj-section padding="20px 16px" background-color="#F7F8FF">
+      <mj-column vertical-align="middle">
+        <mj-text
+          font-size="24px"
+          font-weight="bold"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Manage your task
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Stay on top of your workload with intuitive tools designed to
+          streamline your tasks and boost productivity.
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/emailTemplates/project.png"
+          alt="Manage your task"
+          padding="10px"
+          border-radius="8px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" border-radius="0px 0px 8px 8px">
+      <!-- CALL TO ACTION -->
+      <mj-column width="100%" background-color="#FFFFFF" padding="28px 0">
+        <mj-text
+          align="center"
+          font-size="20px"
+          font-weight="bold"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Start using Locka
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          align="center"
+        >
+          Thank you for joining us. <br />
+          Enjoy amazing features Locka has to offer you.
+        </mj-text>
+        <mj-button
+          href="${locka_url}"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="30px 16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          height="30px"
+          inner-padding="10px 70px"
+        >
+          Get started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- FOOTER==================================== -->
+    <mj-section>
+      <mj-column>
+        <mj-social icon-size="40px" mode="horizontal" align="center">
+          <mj-social-element
+            href="https://www.instagram.com/locka.app"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+            alt="instaram-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.x.com/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+            alt="twitterX-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.facebook.com/getlocka"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.linkedin.com/company/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+            alt="linkedin-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          <a
+            href="https://locka.app/"
+            target="_blank"
+            style="color: #3b42c4; font-weight: bold; text-decoration: none"
+          >
+            www.locka.app
+          </a>
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#999999"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Abuja FCT, Nigeria
+        </mj-text>
+        <mj-divider
+          border-color="#ECECEC"
+          border-width="1px"
+          border-style="solid"
+          padding="0px 0"
+        />
+
+        <mj-text
+          align="center"
+          color="#999999"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Copyright © ${year}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

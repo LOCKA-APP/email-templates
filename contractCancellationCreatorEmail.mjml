@@ -1,0 +1,209 @@
+<mjml>
+  <mj-head>
+    <mj-title>Contract Cancellation Creator</mj-title>
+    <mj-font
+      name="Host Grotesk, Arial, sans-serif"
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+    ></mj-font>
+  </mj-head>
+  <mj-body background-color="#EFF0FF">
+    <mj-section padding="48px 16px 0 16px">
+      <mj-column
+        border-radius="8px 8px 0px 0px"
+        width="100%"
+        background-color="#3B42C4"
+        padding="32px 0"
+      >
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/Locka-email-logo.png"
+          alt="Locka Logo"
+          width="100px"
+        />
+      </mj-column>
+      <mj-column
+        width="100%"
+        background-color="#FFFFFF"
+        border-radius="0px 0px 8px 8px"
+        padding="48px 0"
+      >
+        <mj-text
+          align="center"
+          font-size="30px"
+          font-weight="bold"
+          padding="0 24px 48px 24px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          line-height="40px"
+        >
+          Important Update: Contract Cancellation for ${project_name}
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Hi <b> ${user_name} </b>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          We wanted to inform you that your contract with
+          <b> ${project_name} </b> has been cancelled by the project owner,
+          <b> ${client_name}. </b>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Here’s what this means:
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="30px"
+          color="#333333"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          <ul style="padding-left: 20px; margin: 0">
+            <li>You are no longer required to work on this project.</li>
+            <li>
+              If you think the cancellation is unfair or there’s an issue, you
+              can file a dispute within <b> 5 working days. </b>
+            </li>
+            <li>
+              Our team will carefully review the project details and determine
+              if payment is due for completed work.
+            </li>
+            <li>
+              If no dispute is filed, the contract will be fully cancelled, and
+              the project owner will receive a refund.
+            </li>
+          </ul>
+        </mj-text>
+        <mj-button
+          href="${dispute_url}"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="30px 16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          height="30px"
+          inner-padding="10px 70px"
+        >
+          File A Dispute
+        </mj-button>
+
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          While this project has come to an end, we’re confident new
+          opportunities are on the horizon for you. If you have any questions or
+          need guidance, our team is always here to support you.
+        </mj-text>
+
+        <mj-button
+          href="mailto:${support_email}"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="30px 16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          height="30px"
+          inner-padding="10px 70px"
+        >
+          Contact Support
+        </mj-button>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Warm regards,
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          ><b> The Locka Team</b>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER==================================== -->
+    <mj-section>
+      <mj-column>
+        <mj-social icon-size="40px" mode="horizontal" align="center">
+          <mj-social-element
+            href="https://www.instagram.com/locka.app"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+            alt="instaram-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.x.com/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+            alt="twitterX-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.facebook.com/getlocka"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.linkedin.com/company/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+            alt="linkedin-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          <a
+            href="https://locka.app/"
+            target="_blank"
+            style="color: #3b42c4; font-weight: bold; text-decoration: none"
+          >
+            www.locka.app
+          </a>
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#999999"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Abuja FCT, Nigeria
+        </mj-text>
+        <mj-divider
+          border-color="#ECECEC"
+          border-width="1px"
+          border-style="solid"
+          padding="0px 0"
+        />
+
+        <mj-text
+          align="center"
+          color="#999999"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Copyright © ${year}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

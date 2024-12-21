@@ -1,0 +1,16 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "description": "Locka email templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-mjml-js": "find . -name '*.mjml' -exec sh -c 'mkdir -p emails && npx mjml {} -s > temp.html && node generate-js.js {} temp.html && rm temp.html' \\;"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.15.3",
+    "nodemon": "^3.1.7"
+  }
+}
