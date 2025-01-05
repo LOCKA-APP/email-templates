@@ -1,4 +1,3 @@
-
 export const newPurchaseEmail = (user_name, product_name, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
@@ -267,7 +266,7 @@ export const newPurchaseEmail = (user_name, product_name, year) => {
                                   <tbody>
                                     <tr>
                                       <td style="font-size:0;height:40px;vertical-align:middle;width:40px;">
-                                        <a href="https://www.linkedin.com/company/lockaapp" target="_blank">
+                                        <a href="https://www.linkedin.com/company/getlocka/" target="_blank">
                                           <img alt="linkedin-logo" height="40" src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png" style="border-radius:3px;display:block;" width="40" />
                                         </a>
                                       </td>
