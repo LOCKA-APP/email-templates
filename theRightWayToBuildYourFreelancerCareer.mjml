@@ -1,0 +1,197 @@
+<mjml>
+  <mj-head>
+    <mj-title>The Right Way to Build Your Freelancer Career</mj-title>
+    <mj-font
+      name="Host Grotesk, Arial, sans-serif"
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+    ></mj-font>
+  </mj-head>
+  <mj-body background-color="#EFF0FF">
+    <mj-section padding="48px 16px 0 16px">
+      <mj-column
+        border-radius="8px 8px 0px 0px"
+        width="100%"
+        background-color="#3B42C4"
+        padding="32px 0"
+      >
+        <mj-image
+          src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/Locka-email-logo.png"
+          alt="Locka Logo"
+          width="100px"
+        />
+      </mj-column>
+      <mj-column
+        width="100%"
+        background-color="#FFFFFF"
+        border-radius="0px 0px 8px 8px"
+        padding="48px 0"
+      >
+        <mj-text
+          align="center"
+          font-size="30px"
+          font-weight="bold"
+          padding="0px 24px 48px 24px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          line-height="40px"
+        >
+          Join Our Exclusive Webinar: The Right Way to Build Your Freelancer
+          Career 🚀🚀🚀
+        </mj-text>
+
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Hi <b> ${user_name} </b>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          We are inviting you to an exclusive webinar on March 7th, 2025 Join us
+          to discover “The Right Way to Build Your Freelancer Career”.
+        </mj-text>
+
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          <b>What you will learn: </b>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          color="#333333"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          <ol style="padding-left: 20px; margin: 0">
+            <li>How to land your first freelance clients.</li>
+            <li>
+              How to build a strong personal brand and attract high-value
+              clients.
+            </li>
+            <li>Managing your projects, clients, and finances like a pro.</li>
+            <li>
+              Gain insights into how Locka supports creators with tools like
+              projects.
+            </li>
+          </ol>
+        </mj-text>
+
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          This is a <b> live and interactive session</b>, so bring your
+          questions! Don’t miss out on this opportunity to learn from an
+          industry expert and connect with fellow freelancers.
+        </mj-text>
+
+        <mj-image
+          src="https://res.cloudinary.com/bookableamerica/image/upload/v1741190687/webinar_march-02_uugnmm.png"
+          alt="Locka Logo"
+          padding="48px 24px 48px 24px"
+        />
+
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          We can’t wait to see you there!
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Warm Regards,
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          The Locka Team.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- FOOTER==================================== -->
+    <mj-section>
+      <mj-column>
+        <mj-social icon-size="40px" mode="horizontal" align="center">
+          <mj-social-element
+            href="https://www.instagram.com/locka.app"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/instagram.png"
+            alt="instaram-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.x.com/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/twitterX.png"
+            alt="twitterX-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.facebook.com/getlocka"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/facebook.png"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+          <mj-social-element
+            href="https://www.linkedin.com/company/lockaapp"
+            src="https://lockapublicbucket.s3.eu-north-1.amazonaws.com/linkedin.png"
+            alt="linkedin-logo"
+            padding="0px 10px"
+          >
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          <a
+            href="https://locka.app/"
+            target="_blank"
+            style="color: #3b42c4; font-weight: bold; text-decoration: none"
+          >
+            www.locka.app
+          </a>
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#999999"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Abuja FCT, Nigeria
+        </mj-text>
+        <mj-divider
+          border-color="#ECECEC"
+          border-width="1px"
+          border-style="solid"
+          padding="0px 0"
+        />
+
+        <mj-text
+          align="center"
+          color="#999999"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Copyright © ${year}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
