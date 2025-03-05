@@ -1,5 +1,5 @@
 
-export const projectApplicationEmail = (user_name, creator_name, project_name, proposal, applications_url, year) => {
+export const joinOurWebinar = (user_name, calendar_link, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 
@@ -7,7 +7,7 @@ export const projectApplicationEmail = (user_name, creator_name, project_name, p
 <html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <title>Project Invitation</title>
+  <title>Join Our Webinar</title>
   <!--[if !mso]><!-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--<![endif]-->
@@ -62,6 +62,13 @@ export const projectApplicationEmail = (user_name, creator_name, project_name, p
       .mj-outlook-group-fix { width:100% !important; }
     </style>
     <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap);
+
+  </style>
+  <!--<![endif]-->
   <style type="text/css">
     @media only screen and (min-width:480px) {
       .mj-column-per-100 {
@@ -137,8 +144,21 @@ export const projectApplicationEmail = (user_name, creator_name, project_name, p
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:0 24px 18px 24px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Your Project has a new application</div>
+                              <td align="center" style="font-size:0px;padding:0px 24px 48px 24px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:30px;font-weight:bold;line-height:40px;text-align:center;color:#000000;">Updated Webinar Details: Take Control of Your Creative Earnings</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:0px 24px 48px 24px;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="width:520px;">
+                                        <img alt="Locka Logo" src="https://res.cloudinary.com/de0jr8mcm/image/upload/v1735919384/locka/Locka_Creator_Webinar_emjwp0.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="520" height="auto" />
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </td>
                             </tr>
                             <tr>
@@ -148,26 +168,26 @@ export const projectApplicationEmail = (user_name, creator_name, project_name, p
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b>${creator_name}</b> has indicated interest in collaborating on your project:<b> ${project_name}</b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">You are invited to an exclusive webinar on January 11th, 2025 with Clarence Aigbuza, our Product Lead. <br /> Join us to discover how you can Take Control of Your Creative Earning.</div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:18px;line-height:30px;text-align:left;color:#000000;"><b>Proposal:</b></div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b>Important Update: </b></div>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">${proposal}</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">The webinar link has been updated. Please click the button below to save your spot:</div>
                               </td>
                             </tr>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:30px 16px;word-break:break-word;">
+                              <td align="center" style="font-size:0px;padding:20px 16px;word-break:break-word;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#3B42C4" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:30px;mso-padding-alt:10px 70px;background:#3B42C4;" valign="middle">
-                                        <a href="${applications_url}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> View project Applications </a>
+                                        <a href="${calendar_link}" style="display:inline-block;background:#3B42C4;color:#ffffff;font-family:Host Grotesk, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 70px;mso-padding-alt:0px;border-radius:8px;" target="_blank"> RVSP Here </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -176,7 +196,45 @@ export const projectApplicationEmail = (user_name, creator_name, project_name, p
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">If you encounter any issues or need assistance, our support team is just a click away.</div>
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> Key Takeaways: </b></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#333333;">
+                                  <ul style="padding-left: 20px; margin: 0">
+                                    <li> Strategies to take control of your income as a creative professional. </li>
+                                    <li> Gain insights into how Locka supports creators with tools like project management, talent finding, and escrow services. </li>
+                                    <li> Tips and best practices for managing creative earnings to maximise growth. </li>
+                                    <li>Live demo on how to use Locka</li>
+                                    <li>Connect with fellow creators and industry professionals</li>
+                                  </ul>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Whether you’re a creator trying to find new client or you want to secure your project payment, you’ll work away with actionable insight to take control of your earnings.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">If the button above doesn’t work, please click or copy and paste the URL link below in your web browser</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;"><a href="${calendar_link}" target="_blank" style="color: #3b42c4; font-weight: bold; text-decoration: none"> ${calendar_link} </a></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;">Warm regards,</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Host Grotesk, Arial, sans-serif;font-size:16px;line-height:22.4px;text-align:left;color:#000000;"><b> The Locka Team</b></div>
                               </td>
                             </tr>
                           </tbody>

@@ -1,3 +1,4 @@
+
 export const newPurchaseEmail = (user_name, product_name, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();

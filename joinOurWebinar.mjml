@@ -34,7 +34,7 @@
           font-family="Host Grotesk, Arial, sans-serif"
           line-height="40px"
         >
-          Invited to Join our webinar
+          Updated Webinar Details: Take Control of Your Creative Earnings
         </mj-text>
         <mj-image
           src="https://res.cloudinary.com/de0jr8mcm/image/upload/v1735919384/locka/Locka_Creator_Webinar_emjwp0.png"
@@ -55,9 +55,35 @@
         >
           You are invited to an exclusive webinar on January 11th, 2025 with
           Clarence Aigbuza, our Product Lead. <br />
-          Join us to discover how you can “Take Control of Your Creative Earning
-          with Locka”.
+          Join us to discover how you can Take Control of Your Creative Earning.
         </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          <b>Important Update: </b>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          The webinar link has been updated. Please click the button below to
+          save your spot:
+        </mj-text>
+        <mj-button
+          href="${calendar_link}"
+          background-color="#3B42C4"
+          font-size="16px"
+          border-radius="8px"
+          padding="20px 16px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          height="30px"
+          inner-padding="10px 70px"
+        >
+          RVSP Here
+        </mj-button>
         <mj-text
           font-size="16px"
           line-height="22.4px"
@@ -65,6 +91,7 @@
         >
           <b> Key Takeaways: </b>
         </mj-text>
+
         <mj-text
           font-size="16px"
           line-height="22.4px"
@@ -88,6 +115,7 @@
             <li>Connect with fellow creators and industry professionals</li>
           </ul>
         </mj-text>
+
         <mj-text
           font-size="16px"
           line-height="22.4px"
@@ -97,18 +125,37 @@
           secure your project payment, you’ll work away with actionable insight
           to take control of your earnings.
         </mj-text>
-        <mj-button
-          href="${rsvp_url}"
-          background-color="#3B42C4"
+
+        <mj-text
           font-size="16px"
-          border-radius="8px"
-          padding="30px 16px"
+          line-height="22.4px"
           font-family="Host Grotesk, Arial, sans-serif"
-          height="30px"
-          inner-padding="10px 70px"
         >
-          RVSP Here
-        </mj-button>
+          If the button above doesn’t work, please click or copy and paste the
+          URL link below in your web browser
+        </mj-text>
+        <mj-text font-size="16px" font-family="Host Grotesk, Arial, sans-serif">
+          <a
+            href="${calendar_link}"
+            target="_blank"
+            style="color: #3b42c4; font-weight: bold; text-decoration: none"
+          >
+            ${calendar_link}
+          </a>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+        >
+          Warm regards,
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="22.4px"
+          font-family="Host Grotesk, Arial, sans-serif"
+          ><b> The Locka Team</b>
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- FOOTER==================================== -->

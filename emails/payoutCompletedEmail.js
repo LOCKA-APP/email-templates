@@ -1,3 +1,4 @@
+
 export const payoutCompletedEmail = (amount, user_name, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();

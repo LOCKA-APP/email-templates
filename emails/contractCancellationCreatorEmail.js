@@ -1,11 +1,5 @@
-export const contractCancellationCreatorEmail = (
-  project_name,
-  user_name,
-  client_name,
-  dispute_url,
-  support_email,
-  year
-) => {
+
+export const contractCancellationCreatorEmail = (project_name, user_name, client_name, dispute_url, support_email, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 

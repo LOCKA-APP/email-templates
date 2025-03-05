@@ -1,3 +1,4 @@
+
 export const welcomeCreator = (user_name, locka_url, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();

@@ -1,10 +1,5 @@
-export const projectInvitationEmail = (
-  user_name,
-  project_owner,
-  project_name,
-  invite_url,
-  year
-) => {
+
+export const projectInvitationEmail = (user_name, project_owner, project_name, invite_url, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 

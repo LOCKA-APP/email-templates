@@ -1,3 +1,4 @@
+
 export const paymentReleasedEmail = (project_name, user_name, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();

@@ -1,3 +1,4 @@
+
 export const verifyEmailTemplate = (user_name, verify_url, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();

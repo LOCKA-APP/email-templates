@@ -1,3 +1,4 @@
+
 export const plainEmailTemplate = (title, user_name, message, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();

@@ -1,9 +1,5 @@
-export const resetEmailTemplate = (
-  user_name,
-  confirm_url,
-  support_email,
-  year
-) => {
+
+export const resetEmailTemplate = (user_name, confirm_url, support_email, year) => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 
